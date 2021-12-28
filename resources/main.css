@@ -1,0 +1,28 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: gainsboro;
+    font-family: 'Courier New', monospace;
+}
+
+td {
+    padding: 0 2rem;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
