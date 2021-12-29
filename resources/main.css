@@ -23,6 +23,9 @@ a {
     color: cornflowerblue;
     text-decoration: none;
 }
+a:hover {
+    color: blueviolet;
+}
 
 h1 {
     text-align: center;
