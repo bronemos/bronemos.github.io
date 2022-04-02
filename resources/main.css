@@ -6,12 +6,12 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-color: gainsboro;
-    font-family: 'Courier New', monospace;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
-    max-width: 69rem;
+    max-width: 50rem;
 }
 
 td {
@@ -23,6 +23,7 @@ a {
     color: cornflowerblue;
     text-decoration: none;
 }
+
 a:hover {
     color: blueviolet;
 }
