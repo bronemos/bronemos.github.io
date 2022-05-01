@@ -11,12 +11,12 @@ body {
 }
 
 table {
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 td {
     padding: .1rem 2rem;
-    width: auto;
+    width: 15rem;
 }
 
 a {
@@ -26,12 +26,4 @@ a {
 
 a:hover {
     color: blueviolet;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
 }
