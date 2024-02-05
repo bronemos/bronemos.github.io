@@ -10,13 +10,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    height: 100%;
+}
+
 table {
-    max-width: 63rem;
+    max-width: 60rem;
 }
 
 td {
-    padding: .1rem 2rem;
-    width: 15rem;
+    padding: .1rem .5rem;
+}
+
+tr {
+    border: none;
+    padding: 0rem;
 }
 
 a {
@@ -24,6 +32,16 @@ a {
     text-decoration: none;
 }
 
+img {
+    padding: 0.5%;
+}
+
 a:hover {
     color: blueviolet;
+}
+
+.heading {
+    text-align: left;
+    column-span: all;
+    font-weight: normal;
 }
