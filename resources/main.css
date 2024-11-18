@@ -1,47 +1,80 @@
-html {
-    display: table;
-    margin: auto;
-}
+/*
+Original design: Basic Profile (v1.0 - March 23rd, 2011) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-profile/
 
-body {
-    display: table-cell;
-    vertical-align: middle;
-    background-color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-}
+Original color: #239a23
+Bluer version: #2a5a9a
+*/
 
-.container {
-    height: 100%;
-}
+*{margin:0; padding:0;}
+body {background:whitesmoke url(background.jpg) top center no-repeat; color:#303030; font:14px Arial, Helvetica, sans-serif; line-height:1.6em;}
+a {color: cornflowerblue; text-decoration:none;}
+a:hover {color: blueviolet;}
+a.disabled {color:#888; text-decoration:none;}
+a.disabled:hover {text-decoration:none;}
+ul,dl {margin:0 0 20px 0;}
+p {margin:0 0 20px 0;}
+h1 {color:#888; font-size:3.2em; line-height:1.1em; letter-spacing:-1px; margin:20px 0 20px 0;}
+h1 a {text-transform:none; text-decoration: none;}
+h1 a:hover {color:#333; text-transform:none; text-decoration: none;}
+h2 {font-size:2.2em; color:#333; margin:30px 0 20px 0; letter-spacing:-1px;}
+h2 a {color:#333; text-transform:none; text-decoration: none;}
+h2 a:hover {color:#333; text-transform:none; text-decoration: none;}
+h3 {font-size:1.8em; margin:30px 0 15px 0; letter-spacing:-1px;}
+h1,h2,h3 {font-weight:700; line-height:1.4em;}
+#wrap {color:#303030; margin:5px auto; padding:0; width:910px;}
+#content {text-align:justify; width:700px; padding-left:40px; margin-left: 250px; border-left: 1px solid black;}
+#sidebar {float:left; width:200px; padding-left:40px; position: -webkit-sticky; position: sticky; top: 5px;}
+#sidebar ul {list-style:none; margin:0; padding:10px 0 0 0;}
+#sidebar li {list-style:none; font-size:1.2em; margin:0 0 10px; padding:0 0 10px 0;}
+#sidebar li a {font-size:0.9em;}
+#sidebar h2 {font-size: 1.4em; margin: 10px 0;}
+.toappear {color:#707070;}
+.slogan {color:#888; font-size:1.4em; font-weight:700; margin:0 0 20px 0; letter-spacing:-1px;}
+.readmore {text-align:right; margin:0 20px 30px 0;}
+.timestamp {display:block; font-weight:700; color:#888; text-align:right; width:150px; padding:20px 20px 20px 0; float:left; margin:0 20px 20px 0; border-right:2px solid #eee;}
+.timestamp a {font-weight:normal;}
+.credits {display:block; text-align:center; width:100%; font-size:0.9em; color:#aaa; margin:30px 0;}
+.credits a {color:#888;}
+.clear {clear:both;}
+.announcement {text-align: center; padding: 10px; margin-bottom: 20px; margin-left: auto; margin-right: auto; background:#fff8ba; border: 1px solid #ddcd99; font-size: 116%;}
+ul.moreindent {margin: 0 0 20px 0;}
+ul.moreindent li {margin-left: 20px;}
+table ul {margin: 0 0 0 0;}
+table ul li {margin-left: 17px;}
 
 table {
-    max-width: 60rem;
+  border-width: 1px;
+  border-spacing: 0;
+  border-style: none;
+  border-color: #ddd;
+  border-collapse: collapse;
+  background-color: white;
 }
 
-td {
-    padding: .1rem .5rem;
+table th {
+  border-width: 1px;
+  padding: 3px 8px;
+  border-style: solid;
+  border-color: #ddd;
+  background-color: #eee;
+  color: #808080;
+  font-weight: bold;
 }
 
-tr {
-    border: none;
-    padding: 0rem;
+table td {
+  border-width: 1px;
+  padding: 3px 8px;
+  border-style: solid;
+  border-color: #ddd;
 }
 
-a {
-    color: cornflowerblue;
-    text-decoration: none;
+#photo {
+  width: 100%;
+  margin:0;
+  text-align: left;
+  padding-bottom: 15px;
+  color: #ddd;
 }
 
-img {
-    padding: 0.5%;
-}
-
-a:hover {
-    color: blueviolet;
-}
-
-.heading {
-    text-align: left;
-    column-span: all;
-    font-weight: normal;
-}
+#photo a, #photo a:visited, #photo a:active, #photo a:hover { color: #ddd; }
