@@ -22,9 +22,9 @@ h2 a {color:#333; text-transform:none; text-decoration: none;}
 h2 a:hover {color:#333; text-transform:none; text-decoration: none;}
 h3 {font-size:1.8em; margin:30px 0 15px 0; letter-spacing:-1px;}
 h1,h2,h3 {font-weight:700; line-height:1.4em;}
-#wrap {color:#303030; margin:5px auto; padding:0; width:910px;}
-#content {text-align:justify; width:700px; padding-left:40px; margin-left: 250px; border-left: 1px solid black;}
-#sidebar {float:left; width:200px; padding-left:40px; position: -webkit-sticky; position: sticky; top: 5px;}
+#wrap {color:#303030; margin:5px auto; padding:0; width:100%; display: flex; justify-content: center;}
+#content {text-align:justify; width:50rem; min-width: 5em; max-width: 65em; padding-left:0.5em; margin-left: 5em; border-left: 1px solid black;}
+#sidebar {float:left; width:13em; padding-left: 5px; position: -webkit-sticky; position: sticky; top: 5px; align-self: flex-start}
 #sidebar ul {list-style:none; margin:0; padding:10px 0 0 0;}
 #sidebar li {list-style:none; font-size:1.2em; margin:0 0 10px; padding:0 0 10px 0;}
 #sidebar li a {font-size:0.9em;}
