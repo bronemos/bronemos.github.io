@@ -78,3 +78,10 @@ table td {
 }
 
 #photo a, #photo a:visited, #photo a:active, #photo a:hover { color: #ddd; }
+
+@media (max-width: 768px) {
+    body,html {
+     max-width: 100%;
+     min-width: 100%;
+   }
+  }
